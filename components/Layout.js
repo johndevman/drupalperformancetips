@@ -8,7 +8,8 @@ export default function Layout({ children, pageTitle, description, ...props }) {
       <Head>
         <meta name="viewport" content="width=device-width" />
         <meta charSet="utf-8" />
-        <meta name="Description" content={description}></meta>
+        <meta name="Description" content={description} />
+        <link rel="shortcut icon" href="/static/favicon.png" />
         <title>{pageTitle}</title>
       </Head>
       <style jsx global>{`

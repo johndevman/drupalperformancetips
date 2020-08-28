@@ -34,6 +34,6 @@ So, what can we do?
 * You can try rewriting queries to use `LOWER()` which is a common workaround to run queries case insensitive.
 * Change database
 
-We ended up doing the latter, fixing the slowest queries would help, but the site would remain slower than it need to be. Rewriting all queries could be risky and potentially introduce regressions.
+We ended up doing the latter. We initially fixed the slowest queries and it certainly helped, but the site would still remain slower than it need to be. Further more, rewriting all queries could be risky and potentially introduce regressions.
 
 The problem is being worked on, but given the complexity and our own time frame, the change of database ended up being the best solution for us.

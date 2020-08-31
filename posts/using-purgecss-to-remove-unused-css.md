@@ -1,8 +1,7 @@
 ---
 title: 'Using PurgeCSS to remove unused CSS'
 author: 'John'
-date: '2020-08-30'
-published: false
+date: '2020-08-31'
 ---
 
 PurgeCSS is a tool to remove unused CSS, by analyzing your markup (templates) and CSS, resulting in smaller CSS files.

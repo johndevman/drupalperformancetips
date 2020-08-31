@@ -16,7 +16,7 @@ To test PurgeCSS, I've setup a freshly installed Drupal project and built a simp
 
 The theme has a single compressed `main.css` CSS file, built from Bootstrap source (Sass), using the task runner Gulp.
 
-The file size is currently 146 kb.
+**The file size is currently 146 kb.**
 
 Here is our Gulp task:
 
@@ -51,7 +51,9 @@ function build() {
 }
 ```
 
-Now we can re-run our task `npx gulp` and voila! Our CSS file is now only 6.5 kB instead of 146 kb!
+Now we can re-run our task `npx gulp` and voila!
+
+**Our CSS file is now only 6.5 kB instead of 146 kb!**
 
 Note: If you're adding classes via JavaScript, then you should add that path to the `content` array as well:
 

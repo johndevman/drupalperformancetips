@@ -11,7 +11,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   return (
     <>
       <Layout pageTitle={`${frontmatter.title} | ${siteTitle}`}>
-        <article class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
+        <article className="mx-auto prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
           <h1>{frontmatter.title}</h1>
           <div>
             <ReactMarkdown source={markdownBody} />
